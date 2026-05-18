@@ -2,7 +2,7 @@ import { heroData } from "@/lib/data";
 
 export function Hero() {
 	return (
-		<section className="min-h-[92vh] flex flex-col justify-center px-8 pt-32">
+		<section className="min-h-[92vh] flex flex-col justify-center px-8 pt-24">
 			<div className="max-w-[900px] mx-auto w-full">
 				<div className="flex items-center gap-4 mb-8">
 					<span className="w-8 h-[1px] bg-gold" />
