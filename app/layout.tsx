@@ -39,6 +39,9 @@ export const metadata: Metadata = {
     "Enterprise Systems",
   ],
   authors: [{ name: "Andressa V. Conrado" }],
+  icons: {
+    icon: "/favicon.ico", 
+  },
   openGraph: {
     title: "Andressa V. Conrado — Full Stack Developer",
     description:
