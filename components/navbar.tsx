@@ -8,14 +8,13 @@ export function Navbar() {
 
 	return (
 		<nav className="fixed top-0 left-0 right-0 z-50 h-14 backdrop-blur-md bg-bg/80 border-b border-05 border-border-gold">
-			<div className="max-w-[900px] mx-auto h-full flex items-center justify-between">
+			<div className="max-w-[900px] mx-auto h-full px-4 md:px-0 flex items-center justify-between">
 				<a
 					href="#"
 					className="font-mono text-sm tracking-wider text-gold hover:text-gold-l transition-colors"
 				>
 					<img src="/logo.svg" alt="Logo" className="h-6 w-auto" />
 				</a>
-
 				<div className="hidden md:flex items-center gap-8">
 					{navLinks.map((link) => (
 						<a
@@ -27,7 +26,6 @@ export function Navbar() {
 						</a>
 					))}
 				</div>
-
 				<button
 					onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
 					className="md:hidden font-mono text-[11px] uppercase tracking-[0.2em] text-muted-text hover:text-gold-l transition-colors"

@@ -9,12 +9,12 @@ export function Projects() {
       <div className="max-w-[900px] mx-auto">
         <div className="section-label mb-4">
           <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-gold">
-            Projects
+            Projetos
           </span>
         </div>
 
         <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] font-light mb-12">
-          Selected Work
+          Projetos em Destaque
         </h2>
 
         {featuredProject && (

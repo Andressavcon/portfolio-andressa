@@ -11,7 +11,7 @@ export function Stack() {
         </div>
 
         <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] font-light mb-12">
-          Technical Expertise
+          Expertise Técnica
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

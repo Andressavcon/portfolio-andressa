@@ -6,7 +6,7 @@ export function Contact() {
       <div className="max-w-[900px] mx-auto">
         <div className="section-label mb-4">
           <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-gold">
-            Contact
+            Contato
           </span>
         </div>
 

@@ -34,13 +34,13 @@ export function Hero() {
 						href="#projects"
 						className="inline-flex items-center px-6 py-3 border border-05 border-gold text-gold font-mono text-[11px] uppercase tracking-[0.2em] hover:bg-gold hover:text-bg transition-colors"
 					>
-						View My Work
+						Ver meu trabalho
 					</a>
 					<a
 						href="#contact"
 						className="inline-flex items-center px-6 py-3 border border-05 border-border2 text-muted-text font-mono text-[11px] uppercase tracking-[0.2em] hover:border-gold hover:text-gold-l transition-colors"
 					>
-						Get in Touch
+						Entrar em Contato
 					</a>
 				</div>
 			</div>

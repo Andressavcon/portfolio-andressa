@@ -6,12 +6,12 @@ export function About() {
       <div className="max-w-[900px] mx-auto">
         <div className="section-label mb-4">
           <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-gold">
-            About
+            Sobre
           </span>
         </div>
 
         <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] font-light mb-12">
-          Background
+          Sobre mim
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-[3fr_2fr] gap-12">

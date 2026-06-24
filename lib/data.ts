@@ -1,30 +1,30 @@
 export const navLinks = [
-	{ href: "#about", label: "About" },
+	{ href: "#about", label: "Sobre" },
 	{ href: "#stack", label: "Stack" },
-	{ href: "#work", label: "Work" },
-	{ href: "#projects", label: "Projects" },
-	{ href: "#contact", label: "Contact" },
+	{ href: "#work", label: "Experiência" },
+	{ href: "#projects", label: "Projetos" },
+	{ href: "#contact", label: "Contato" },
 ];
 
 export const heroData = {
-	eyebrow: "Full Stack Developer",
+	eyebrow: "Desenvolvedora Full Stack",
 	name: { first: "Andressa", last: "V. Conrado" },
-	tagline: "Engineering precision, applied to software.",
+	tagline: "Precisão de engenharia, aplicada ao software.",
 	subTagline: "Java · Spring Boot · React · Next.js · TypeScript",
-	description: `I design and build enterprise-grade systems—from robust backends to high-precision frontends. As a Civil Engineer by training, I leverage a structural mindset and analytical rigor to develop resilient software architectures. Currently, I build the official platforms for engineering departments at a global industrial leader, driving efficiency and scalability across complex industrial workflows.`,
+	description: `Desenvolvedora Full Stack com experiência em Java, Spring Boot, React, Next.js e TypeScript. Atuo no desenvolvimento de aplicações web internas na WEG, cobrindo frontend e backend com foco em qualidade de código e boas práticas.`,
 };
 
 export const aboutData = {
 	paragraphs: [
-		`I'm a Full Stack Developer with an <strong>engineering mindset</strong>. My background in Civil Engineering with structural analysis, dimensional precision, systems that cannot fail shaped how I approach software: methodically, from architecture to the last detail.`,
-		`I transitioned autonomously into tech in 2022, building expertise through self-directed study and applied production projects. Since then, I've been developing <strong>mission-critical enterprise systems</strong> at a global industrial company from full architecture design to deployment.`,
-		`My work philosophy centers on <strong>zero-defect thinking</strong>, clean architecture, and systems that teams adopt, trust, and rely on long-term. I also apply <strong>Generative AI and Prompt Engineering</strong> to accelerate development workflows.`,
+		`Sou desenvolvedora Full Stack com background em <strong>Engenharia Civil</strong>. Essa formação me deu raciocínio analítico e atenção a requisitos que aplico diretamente no desenvolvimento de software.`,
+		`Fiz transição para tecnologia em 2022 de forma autodirigida e hoje atuo na <strong>WEG</strong> desenvolvendo aplicações web internas, com responsabilidade sobre frontend e backend.`,
+		`Trabalho com <strong>Java, Spring Boot, React, Next.js e TypeScript</strong>, aplicando boas práticas como SOLID, Design Patterns e testes automatizados. Tenho interesse crescente em <strong>Inteligência Artificial</strong> e como ela pode ser integrada a produtos reais.`,
 	],
 	stats: [
-		{ number: "2+", label: "Enterprise systems in production" },
-		{ number: "120+", label: "Specialists in dept. presentation audience" },
-		{ number: "8", label: "Languages in the localization module" },
-		{ number: "AI-Driven", label: "Dimensional validation in CAD workflows" },
+		{ number: "2+", label: "Sistemas em produção" },
+		{ number: "120+", label: "Pessoas na apresentação interna do sistema" },
+		{ number: "8", label: "Idiomas no módulo de localização" },
+		{ number: "IA", label: "Validação dimensional em fluxos CAD" },
 	],
 };
 
@@ -40,7 +40,7 @@ export type SkillGroup = {
 
 export const stackData: SkillGroup[] = [
 	{
-		title: "Frontend Mastery",
+		title: "Frontend",
 		tags: [
 			{ name: "React 19", primary: true },
 			{ name: "Next.js 15", primary: true },
@@ -57,48 +57,55 @@ export const stackData: SkillGroup[] = [
 			{ name: "Spring Boot 3", primary: true },
 			{ name: "Node.js" },
 			{ name: "C#" },
-			{ name: "JUnit/Mockito", primary: true },
+			{ name: "JUnit / Mockito" },
 			{ name: "JWT Auth" },
-			{ name: "REST APIs" },
+			{ name: "REST APIs", primary: true },
 		],
 	},
 	{
-		title: "Data Architecture",
+		title: "Banco de Dados",
 		tags: [
 			{ name: "PostgreSQL", primary: true },
 			{ name: "MongoDB", primary: true },
-			{ name: "SAP Integration", primary: true },
-			{ name: "TypeORM" },
 			{ name: "JPA / Hibernate" },
+			{ name: "TypeORM" },
 		],
 	},
 	{
-		title: "AI & Automation",
+		title: "IA & Automação",
 		tags: [
 			{ name: "Prompt Engineering", primary: true },
-			{ name: "AI Pipelines", primary: true },
-			{ name: "CAD Validation" },
-			{ name: "Queue Systems" },
+			{ name: "Integração com APIs de IA", primary: true },
+			{ name: "Validação CAD" },
+			{ name: "Sistemas de Fila" },
 		],
 	},
 	{
-		title: "Engineering Practices",
+		title: "Segurança & DevOps",
 		tags: [
-			{ name: "JUnit 5", primary: true },
-			{ name: "Mockito", primary: true },
+			{ name: "Keycloak (IAM)", primary: true },
+			{ name: "Docker", primary: true },
+			{ name: "GitLab CI/CD" },
+			{ name: "Git" },
+		],
+	},
+	{
+		title: "Boas Práticas",
+		tags: [
+			{ name: "SOLID", primary: true },
+			{ name: "Design Patterns", primary: true },
 			{ name: "Clean Code" },
-			{ name: "Design Patterns" },
 			{ name: "Git Flow" },
-			{ name: "Scrum" },
+			{ name: "Scrum / Jira" },
 		],
 	},
 	{
-		title: "Domain Knowledge",
+		title: "Domínio de Negócio",
 		tags: [
-			{ name: "Structural Systems" },
-			{ name: "Industrial Workflows" },
-			{ name: "CAD Processes" },
-			{ name: "Technical Docs" },
+			{ name: "Sistemas Estruturais" },
+			{ name: "Fluxos Industriais" },
+			{ name: "Processos CAD" },
+			{ name: "Documentação Técnica" },
 		],
 	},
 ];
@@ -116,37 +123,37 @@ export type Job = {
 
 export const workData: Job[] = [
 	{
-		company: "Global Industrial Manufacturing Co. (WEG)",
-		role: "Full Stack Developer",
-		period: "Nov 2024 — Present · Jaraguá do Sul, SC",
+		company: "WEG Equipamentos Elétricos S.A.",
+		role: "Desenvolvedora Full Stack | Engenharia de Produto",
+		period: "Nov 2024 — Presente · Jaraguá do Sul, SC",
 		bullets: [
 			{
-				text: `<strong>End-to-End Ownership:</strong> Architected and deployed mission-critical internal platforms, independently replacing years of legacy desktop tooling with scalable enterprise web solutions.`,
+				text: `<strong>Desenvolvimento Full Stack:</strong> Desenvolvimento e entrega de aplicações web internas utilizando Java, Spring Boot, Next.js e TypeScript — com responsabilidade pelo frontend completo e participação no backend em todos os projetos.`,
 			},
 			{
-				text: `<strong>Global Systems Engineering:</strong> Spearheading the development of the "Intelligent Notes" platform using Spring Boot 3 and Next.js 15, featuring SAP integration, 8-language localization, and automated PDF generation.`,
+				text: `<strong>Sistema de Notas Técnicas:</strong> Desenvolvimento do sistema multilíngue de notas técnicas com 8 idiomas, integração automática com sistemas corporativos (SAP), geração automatizada de PDFs e módulo de inteligência artificial (IA) para tradução automática e sugestão terminológica de termos técnicos.`,
 			},
 			{
-				text: `<strong>AI & CAD Automation:</strong> Engineered an AI-driven CAD validation pipeline with automated dimensional verification and queue control, eliminating manual inspection workflows for electrical motor engineering.`,
+				text: `<strong>Automação CAD:</strong> Implementação de módulo de validação automática de montagens CAD para motores elétricos, com sistema de fila, priorização e integração com sistemas internos. Criação de aplicação desktop em C#/.NET para comando de software CAD via API, executando montagens virtuais e análises automáticas.`,
 			},
 			{
-				text: `<strong>Digital Transformation:</strong> Led the migration of critical industrial asset data from vulnerable legacy spreadsheets to a robust PostgreSQL/MongoDB infrastructure, ensuring 100% data traceability.`,
+				text: `<strong>Gestão de Dados Industriais:</strong> Desenvolvimento de aplicação que substituiu planilha Excel crítica para controle de dados técnicos de engenharia, com painel administrativo CRUD, tabela em tempo real e controle de acesso via Keycloak.`,
 			},
 			{
-				text: `<strong>Technical Leadership:</strong> Identified architectural limitations in legacy systems and implemented structural improvements to ensure global scalability. Conducted a technical seminar for 120+ engineering specialists to drive tool adoption.`,
+				text: `<strong>Apresentação Técnica:</strong> Apresentação interna do sistema para mais de 120 especialistas de engenharia.`,
 			},
 		],
 	},
 	{
-		company: "Autonomous",
-		role: "Civil Engineer — Structural Design & Automation",
-		period: "Dec 2020 — Dec 2022 · Remote",
+		company: "Autônomo",
+		role: "Engenheira Civil | Projetos Estruturais em Light Steel Framing",
+		period: "Dez 2020 — Dez 2022 · Remoto",
 		bullets: [
 			{
-				text: `<strong>Structural Engineering:</strong> Performed structural analysis and dimensioning for complex Light Steel Framing (LSF) systems, applying rigorous mathematical logic to ensure stability and integrity.`,
+				text: `<strong>Projetos Estruturais:</strong> Dimensionamento e detalhamento de estruturas em Light Steel Framing (LSF), com modelagem 3D em Tekla Structures e Revit e entrega de pranchas técnicas para produção.`,
 			},
 			{
-				text: `<strong>Early Automation:</strong> Developed custom calculation tools to automate material estimation and cost analysis, bridging the gap between structural logic and software-driven problem solving.`,
+				text: `<strong>Automação de Processos:</strong> Criação de planilhas de cálculo para automatizar orçamentos e levantamento de quantitativos — base do interesse por lógica e automação que direcionou a transição para software.`,
 			},
 		],
 	},
@@ -164,53 +171,55 @@ export type Project = {
 
 export const projectsData: Project[] = [
 	{
-		title: "Intelligent Notes Ecosystem",
-		badge: "Enterprise · SAP Integrated · Re-engineered",
+		title: "Sistema de Notas Técnicas",
+		badge: "Empresarial · Multilíngue · Em Produção",
 		description:
-			"Developed and re-engineered a mission-critical technical records platform to ensure enterprise-grade scalability. Identified and addressed structural limitations in the previous architecture, delivering a robust full-stack system with parameterized templates, SAP integration, 8-language localization, and automated PDF generation for engineering workflows.",
+			"Sistema web completo para gerenciamento de notas técnicas de engenharia, com suporte a 8 idiomas, integração automática com sistemas corporativos (SAP), geração automatizada de PDFs e módulo de inteligência artificial para tradução automática e sugestão terminológica de termos técnicos. Desenvolvido com Spring Boot 3 e Next.js 15, com persistência em PostgreSQL e MongoDB.",
 		tags: [
 			"Java · Spring Boot 3",
 			"Next.js 15 · React 19",
 			"PostgreSQL · MongoDB",
-			"SAP Integration",
-			"i18n · 8 Languages",
+			"i18n · 8 Idiomas",
+			"IA · Tradução Automática",
+			"Integração SAP",
 		],
 		featured: true,
 		stats: [
-			{ number: "AI-Driven", label: "Dimensional validation in CAD workflows" },
-			{ number: "8", label: "Languages" },
-			{ number: "Full", label: "Re-architecture" },
+			{ number: "8", label: "Idiomas suportados" },
+			{ number: "IA", label: "Sugestão terminológica" },
+			{ number: "PDF", label: "Geração automatizada" },
 		],
 	},
 	{
-		title: "Industrial Asset Management",
-		badge: "Enterprise · Legacy Migration · Official Tool",
+		title: "Gestão de Dados Industriais",
+		badge: "Empresarial · Migração de Legado · Ferramenta Oficial",
 		description:
-			"Spearheaded the digital transformation of rotor production tooling, migrating critical engineering data from legacy spreadsheets to a centralized PostgreSQL database. Developed a high-density management panel with complex filtering and a full administrative CRUD suite for real-time asset control.",
+			"Aplicação que substituiu planilha Excel crítica para controle de dados técnicos de engenharia. Desenvolvido o frontend completo e implementados novos endpoints no backend, entregando painel administrativo com CRUD completo, tabela de dados em tempo real e controle de acesso via Keycloak.",
 		tags: [
 			"Java · Spring Boot",
 			"Next.js · TypeScript",
 			"Ant Design",
 			"PostgreSQL",
+			"Keycloak",
 		],
 	},
 	{
-		title: "CAD Validation Automation",
-		badge: "Enterprise · AI-Powered · Industry 4.0",
+		title: "Automação de Validação CAD",
+		badge: "Empresarial · Automação Industrial",
 		description:
-			"Engineered an automated pipeline for CAD assembly validation (SolidWorks) using AI-driven dimensional verification. Implemented real-time queue monitoring and collision analysis, significantly reducing manual inspection time and ensuring near-zero non-conformity rates in motor production.",
+			"Módulo completo para validação automática de montagens CAD de motores elétricos. Implementado sistema de fila com priorização, monitoramento em tempo real e integração com sistemas internos, reduzindo tarefas manuais repetitivas do time de engenharia. Inclui aplicação desktop em C#/.NET para comando de software CAD via API, executando montagens virtuais e análises automáticas.",
 		tags: [
 			"Java · Spring Boot",
-			"AI Dimensional Logic",
-			"Queue Systems",
-			"SolidWorks API",
+			"C# · .NET",
+			"Next.js · TypeScript",
+			"Sistemas de Fila",
 		],
 	},
 	{
-		title: "LFERREIRA — Artist Website",
-		badge: "International · High Performance · Production",
+		title: "LFERREIRA — Site de Artista",
+		badge: "Internacional · Alta Performance · Em Produção",
 		description:
-			"An official international platform engineered for extreme performance and visual impact. Leveraging React 19 and Next.js 15, the site features fluid Framer Motion animations and a robust SEO/i18n architecture for a global audience.",
+			"Plataforma internacional desenvolvida com foco em performance e impacto visual. Utiliza React 19 e Next.js 15 com animações em Framer Motion e arquitetura de i18n para alcance global.",
 		tags: ["Next.js 15", "React 19", "Framer Motion", "Tailwind CSS"],
 		link: "https://www.lferreiralive.com.br",
 	},
@@ -224,31 +233,24 @@ export type Education = {
 
 export const educationData: Education[] = [
 	{
-		period: "Starting Aug 2026",
-		title: "Postgraduate — Software Engineering",
-		institution: "PUC Minas · Distance Learning",
-	},
-	{
-		period: "2022 — Present",
-		title: "Self-directed Software Development",
-		institution: "Bootcamps · Applied courses · Production at enterprise scale",
-	},
-	{
 		period: "2020 — 2022",
-		title: "Postgraduate — Light Steel Framing & Wood Systems",
-		institution: "ITIE · Structural Engineering Specialization",
+		title: "Pós-graduação — Light Steel Framing & Wood Systems",
+		institution: "ITIE · Especialização em Engenharia Estrutural",
 	},
 	{
 		period: "2015 — 2019",
-		title: "Bachelor's Degree — Civil Engineering",
+		title: "Bacharelado — Engenharia Civil",
 		institution: "UCPel · Universidade Católica de Pelotas",
 	},
 ];
 
 export const contactData = {
-	headline: { line1: "Let's build something", line2: "worth engineering." },
+	headline: {
+		line1: "Vamos criar algo",
+		line2: "que realmente funcione.",
+	},
 	subtext:
-		"Open to full stack roles in high-complexity environments. Especially drawn to teams building systems with real complexity, where engineering quality and architectural precision are non-negotiable.",
+		"Aberta a oportunidades Full Stack em times que valorizam qualidade técnica e evolução contínua.",
 	links: [
 		{
 			icon: "✉",
@@ -269,5 +271,5 @@ export const contactData = {
 };
 
 export const footerData = {
-	text: "Andressa V. Conrado · Full Stack Developer · 2026",
+	text: "Andressa V. Conrado · Desenvolvedora Full Stack · 2026",
 };
