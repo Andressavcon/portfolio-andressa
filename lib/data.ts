@@ -22,7 +22,6 @@ export const aboutData = {
 	],
 	stats: [
 		{ number: "2+", label: "Sistemas em produção" },
-		{ number: "120+", label: "Pessoas na apresentação interna do sistema" },
 		{ number: "8", label: "Idiomas no módulo de localização" },
 		{ number: "IA", label: "Validação dimensional em fluxos CAD" },
 	],
@@ -131,16 +130,13 @@ export const workData: Job[] = [
 				text: `<strong>Desenvolvimento Full Stack:</strong> Desenvolvimento e entrega de aplicações web internas utilizando Java, Spring Boot, Next.js e TypeScript — com responsabilidade pelo frontend completo e participação no backend em todos os projetos.`,
 			},
 			{
-				text: `<strong>Sistema de Notas Técnicas:</strong> Desenvolvimento do sistema multilíngue de notas técnicas com 8 idiomas, integração automática com sistemas corporativos (SAP), geração automatizada de PDFs e módulo de inteligência artificial (IA) para tradução automática e sugestão terminológica de termos técnicos.`,
+				text: `<strong>Sistema de Documentação Técnica Multilíngue:</strong> Desenvolvimento de sistema multilíngue de documentação técnica com 8 idiomas, integração automática com sistemas corporativos internos, geração automatizada de PDFs e módulo de inteligência artificial (IA) para tradução automática e sugestão terminológica de termos técnicos.`,
 			},
 			{
 				text: `<strong>Automação CAD:</strong> Implementação de módulo de validação automática de montagens CAD para motores elétricos, com sistema de fila, priorização e integração com sistemas internos. Criação de aplicação desktop em C#/.NET para comando de software CAD via API, executando montagens virtuais e análises automáticas.`,
 			},
 			{
 				text: `<strong>Gestão de Dados Industriais:</strong> Desenvolvimento de aplicação que substituiu planilha Excel crítica para controle de dados técnicos de engenharia, com painel administrativo CRUD, tabela em tempo real e controle de acesso via Keycloak.`,
-			},
-			{
-				text: `<strong>Apresentação Técnica:</strong> Apresentação interna do sistema para mais de 120 especialistas de engenharia.`,
 			},
 		],
 	},
@@ -171,17 +167,17 @@ export type Project = {
 
 export const projectsData: Project[] = [
 	{
-		title: "Sistema de Notas Técnicas",
+		title: "Sistema de Documentação Técnica Multilíngue",
 		badge: "Empresarial · Multilíngue · Em Produção",
 		description:
-			"Sistema web completo para gerenciamento de notas técnicas de engenharia, com suporte a 8 idiomas, integração automática com sistemas corporativos (SAP), geração automatizada de PDFs e módulo de inteligência artificial para tradução automática e sugestão terminológica de termos técnicos. Desenvolvido com Spring Boot 3 e Next.js 15, com persistência em PostgreSQL e MongoDB.",
+			"Sistema web completo para gerenciamento de documentação técnica de engenharia, com suporte a 8 idiomas, integração automática com sistemas corporativos internos, geração automatizada de PDFs e módulo de inteligência artificial para tradução automática e sugestão terminológica de termos técnicos. Desenvolvido com Spring Boot 3 e Next.js 15, com persistência em PostgreSQL e MongoDB.",
 		tags: [
 			"Java · Spring Boot 3",
 			"Next.js 15 · React 19",
 			"PostgreSQL · MongoDB",
 			"i18n · 8 Idiomas",
 			"IA · Tradução Automática",
-			"Integração SAP",
+			"Integração Corporativa",
 		],
 		featured: true,
 		stats: [
